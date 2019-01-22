@@ -1,0 +1,33 @@
+=====================test for mocha class=============
+class Car {
+  constructor() {
+
+  }
+
+  park(){
+    return 'stopped';
+  }
+
+  drive(){
+     return 'veroom!'
+  }
+}
+
+let car;
+
+beforeEach(()=>{
+  car= new Car();
+});
+
+describe('car',()=>{
+  it('can park',()=>{
+    //const car = new Car();
+    assert.equal(car.park(),'stopped');
+  });
+
+  it('can drive',()=>{
+  //  const car = new Car();
+    assert.equal(car.drive(),'veroom!');
+  });
+});
+===========================test for mocha class end here============
