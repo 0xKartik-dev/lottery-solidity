@@ -4,8 +4,8 @@ const Web3 = require("web3");
 //const web3 = new Web3(provider);
 
 const provider = new HDWalletProvider(
-  "utility mango odor west slab dance charge coral coin silent right supreme",
-  "https://rinkeby.infura.io/v3/b8a18d7725394e558f0c945f09af4da8"
+  "<12 word metamask mnemonic>",
+  "<infura api key for rinkeby test network>"
 );
 
 const web3 = new Web3(provider);
